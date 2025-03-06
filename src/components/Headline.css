@@ -1,0 +1,44 @@
+.container-typewriter{
+  line-height: 1.5;
+  color: #fff;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.typewriter {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.typewriter :nth-of-type(2) {
+  font-size: clamp(1.5rem, 10vw, 5.5rem);
+  font-family: monospace;
+  margin-inline: auto;
+  overflow: hidden;
+  /* Keeps on a single line */
+  white-space: nowrap;
+  /* The cursor */
+  border-right: 1px solid;
+  /* steps = number of characters */
+  animation: typing 1.5s steps(22) forwards, blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
