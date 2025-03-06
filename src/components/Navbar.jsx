@@ -8,8 +8,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const anchors = [
   ["/", "Home"],
-  ["/about", "About"],
-  ["/work", "Work"],
+  ["#about", "About"],
+  ["#work", "Work"],
 ];
 
 function Navbar() {

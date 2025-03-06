@@ -62,7 +62,7 @@ const portfolioProjects = [
 
 const Work = () => {
   return (
-    <div className="container py-20">
+    <div id="work" className="container py-20">
       <h2 className="text-third md:text-8xl text-6xl font-bold font-pop mb-8">
         work.
       </h2>
