@@ -10,14 +10,14 @@ import arrow from "../assets/icons/arrow-up-right.svg";
 
 const portfolioProjects = [
   {
-    company: "Modal",
+    company: "Portfolio",
     year: "2024",
-    title: "Login Modal",
-    results: [{ title: "HTML" }, { title: "CSS" }, { title: "Tailwind" }],
-    link: "https://j4nbi.github.io/login_modal_Tailwind/",
-    github: "https://github.com/J4NBI/login_modal_Tailwind",
-    image: modal,
-  },
+    title: "Next.js Portfolio",
+    results: [{ title: "Next.js" }, { title: "Hooks" }, { title: "Motion" }],
+    link: "https://portfolio-jans-projects-b47e0526.vercel.app/",
+    github: "https://github.com/J4NBI/Portfolio",
+    image: janbihl,
+  },,
   {
     company: "Estate",
     year: "2024",
@@ -48,16 +48,8 @@ const portfolioProjects = [
     link: "https://j4nbi.github.io/assembly_endgame_v2/",
     github: "https://github.com/J4NBI/assembly_endgame_v2",
     image: assembly,
-  },
-  {
-    company: "Portfolio",
-    year: "2024",
-    title: "Next.js Portfolio",
-    results: [{ title: "Next.js" }, { title: "Hooks" }, { title: "Motion" }],
-    link: "https://portfolio-jans-projects-b47e0526.vercel.app/",
-    github: "https://github.com/J4NBI/Portfolio",
-    image: janbihl,
-  },
+  }
+  
 ];
 
 const Work = () => {
@@ -70,7 +62,7 @@ const Work = () => {
         {portfolioProjects.map((project, index) => (
           <div
             key={index}
-            className="bg-back rounded-md hover:shadow-xl hover:scale-105 p-8 transition-all duration-500"
+            className="bg-yellow-100 rounded-md hover:shadow-xl hover:scale-105 p-8 transition-all duration-500 border-4"
           >
             <img
               src={project.image}

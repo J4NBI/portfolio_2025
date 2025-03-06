@@ -1,6 +1,7 @@
 "use client";
 import "./Navbar.css";
 import hero from "../assets/img/Logo_jan_bihl_blue.png";
+import linkedin from '../assets/icons/linkedin.png'
 
 import { useState, useRef, useEffect } from "react";
 import { ChevronDown, ChevronUp, Menu, X } from "lucide-react";
@@ -111,11 +112,12 @@ function Navbar() {
           );
         }
       })}
+      
     </div>
   );
 
   return (
-    <div>
+    <div className="">
       <nav className=" p-4">
         <div className="container mx-auto flex items-center justify-between">
           <a href="/" className="text-xl font-boldtext-prime">
@@ -158,8 +160,11 @@ function Navbar() {
             </motion.div>
           )}
         </AnimatePresence>
+        
       </nav>
+      
     </div>
+    
   );
 }
 

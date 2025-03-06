@@ -14,7 +14,7 @@ const Headline = () => {
             <h2 className="md:text-8xl text-prime font-bold" contenteditable="true">
               WEB<span>DEVELOPER</span> 
             </h2>
-            <button className="text-prime border-2 border-solid border-prime py-4 px-6 text-semibold rounded-md mt-4 hover:bg-third hover:scale-105 transition-all duration-500">My Work</button>
+            <a className="text-prime border-2 border-solid border-prime py-4 px-6 text-semibold rounded-md mt-4 hover:bg-third hover:scale-105 transition-all duration-500" href="#work">My Work</a>
           </div>
         </div>
       </div>
