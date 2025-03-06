@@ -1,8 +1,10 @@
 
 import About from './components/About';
+import Footer from './components/footer';
 import Headline from './components/Headline';
 import Navbar from './components/Navbar';
-import { ProjectsSection } from './components/Projects';
+import Tools from './components/Tools';
+import Work from './components/Work';
 
 
 
@@ -14,7 +16,10 @@ function App() {
       <Navbar />
       <Headline />
       <About />
-      <ProjectsSection />
+      <Work />
+      <Tools />
+      <Footer />
+      
       
     
     </>
