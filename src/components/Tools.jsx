@@ -14,7 +14,7 @@ const Tools = () => {
       <div className='container'>
         <section className=''>
           <h3 className='text-third md:text-8xl text-6xl font-bold font-pop mb-8'>tools.</h3>
-          <div className="flex justify-between">
+          <div className="flex justify-center md:justify-between gap-4 flex-wrap">
             <img className="size-20 text-back " src={html} alt="html icon" style={{ filter: 'invert(0.8)' }} />
             <img className="size-20 text-back" src={css} alt="html icon" style={{ filter: 'invert(0.8)' }} />
             <img className="size-20 text-back" src={js} alt="html icon" style={{ filter: 'invert(0.8)' }} />
