@@ -4,7 +4,7 @@ import heroImage from '../assets/Jan_Bihl_Foto_03.png';
 
 const Headline = () => {
   return (
-    <div className="mx-auto mt-12 flex items-center justify-center flex-wrap max-w-[1200px]">
+    <div className="mx-auto md:mt-12 flex items-center justify-center flex-wrap max-w-[1200px]">
       <div class="container-typewriter flex-1/12">
         <div class="typewriter">
           <div className=" flex flex-col justify-start items-start">
@@ -18,8 +18,8 @@ const Headline = () => {
           </div>
         </div>
       </div>
-      <div className="order-1">
-        <img className="w-[90%] min-w-[200px] mx-auto" src={heroImage} alt="" />
+      <div className="">
+        <img className="md:w-[90%] w-[60%] min-w-[200px] mx-auto pb-20" src={heroImage} alt="" />
         </div>
     </div>
 

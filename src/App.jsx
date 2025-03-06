@@ -1,6 +1,8 @@
 
+import About from './components/About';
 import Headline from './components/Headline';
 import Navbar from './components/Navbar';
+import { ProjectsSection } from './components/Projects';
 
 
 
@@ -11,6 +13,8 @@ function App() {
     <>
       <Navbar />
       <Headline />
+      <About />
+      <ProjectsSection />
       
     
     </>
